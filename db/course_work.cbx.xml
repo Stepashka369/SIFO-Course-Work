@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="course_work">
-		<CBX_INST_ENTRY INSTANCE_NAME="|registers|lpm_decode3:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|instraction_pointer|lpm_add_sub0:inst1|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_dqh.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

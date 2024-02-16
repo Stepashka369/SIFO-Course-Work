@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 5.477 ns
-From           : address[1]
-To             : lpm_dff0:register_12|lpm_ff:lpm_ff_component|dffs[2]
+Actual Time    : 3.642 ns
+From           : jump_address[2]
+To             : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[2]
 From Clock     : --
 To Clock       : clk
 Failed Paths   : 0
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 9.694 ns
-From           : lpm_dff0:register_7|lpm_ff:lpm_ff_component|dffs[3]
-To             : data_out[3]
+Actual Time    : 8.165 ns
+From           : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[2]
+To             : address[2]
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
@@ -25,9 +25,9 @@ Failed Paths   : 0
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 12.085 ns
-From           : address[1]
-To             : data_out[4]
+Actual Time    : 10.910 ns
+From           : tact[1]
+To             : address[2]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
@@ -35,10 +35,20 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : -2.293 ns
-From           : data_in[7]
-To             : lpm_dff0:register_13|lpm_ff:lpm_ff_component|dffs[7]
+Actual Time    : -2.209 ns
+From           : jump_address[0]
+To             : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[0]
+To             : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[11]
+From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
 
