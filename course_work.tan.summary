@@ -2,52 +2,22 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
-Type           : Worst-case tsu
-Slack          : N/A
-Required Time  : None
-Actual Time    : 3.642 ns
-From           : jump_address[2]
-To             : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[2]
-From Clock     : --
-To Clock       : clk
-Failed Paths   : 0
-
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 8.165 ns
-From           : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[2]
-To             : address[2]
+Actual Time    : 10.141 ns
+From           : lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[10]
+To             : memory_in[0]
 From Clock     : clk
 To Clock       : --
-Failed Paths   : 0
-
-Type           : Worst-case tpd
-Slack          : N/A
-Required Time  : None
-Actual Time    : 10.910 ns
-From           : tact[1]
-To             : address[2]
-From Clock     : --
-To Clock       : --
-Failed Paths   : 0
-
-Type           : Worst-case th
-Slack          : N/A
-Required Time  : None
-Actual Time    : -2.209 ns
-From           : jump_address[0]
-To             : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[0]
-From Clock     : --
-To Clock       : clk
 Failed Paths   : 0
 
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
-From           : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[0]
-To             : lpm_dff1:inst|lpm_ff:lpm_ff_component|dffs[11]
+Actual Time    : 129.80 MHz ( period = 7.704 ns )
+From           : takt:inst1|lpm_counter3:inst2|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]
+To             : registers:inst15|lpm_dff0:register_6|lpm_ff:lpm_ff_component|dffs[14]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
