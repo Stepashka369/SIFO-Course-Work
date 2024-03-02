@@ -16,6 +16,7 @@
 component lpm_counter3
 	PORT
 	(
+		aclr		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (3 DOWNTO 0)
 	);

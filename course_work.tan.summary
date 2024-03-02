@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 10.141 ns
-From           : lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[10]
-To             : memory_in[0]
+Actual Time    : 14.332 ns
+From           : cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[10]
+To             : memory_data_out_cpu[14]
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 129.80 MHz ( period = 7.704 ns )
-From           : takt:inst1|lpm_counter3:inst2|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]
-To             : registers:inst15|lpm_dff0:register_6|lpm_ff:lpm_ff_component|dffs[14]
+Actual Time    : 81.98 MHz ( period = 12.198 ns )
+From           : cpu:inst|control_block:inst|takt:inst|lpm_counter3:inst2|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[1]
+To             : memory:inst6|lpm_ram_dq0:inst1|altsyncram:altsyncram_component|altsyncram_d2c1:auto_generated|ram_block1a10~porta_datain_reg0
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0

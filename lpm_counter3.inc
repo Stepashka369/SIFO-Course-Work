@@ -15,6 +15,7 @@
 
 FUNCTION lpm_counter3 
 (
+	aclr,
 	clock
 )
 
