@@ -3810,817 +3810,6 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/control_block.vwf")
 	}
 }
 
-VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/principal.vwf")
-{
-	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 1000000;
-		NUMERATOR = 20;
-		DENOMINATOR = 1000;
-		TOP_INDEX = 0;
-	}
-	CLOCK{
-		PERIOD = 20000;
-		OFFSET = 0;
-		DUTY_CYCLE = 50;
-	}
-	RANDOM_VALUE{
-		INTERVAL_TYPE = HALF_GRID;
-	}
-	LINE{
-		SIGNAL = "clk";
-		INDEX = 0;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address";
-		INDEX = 1;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[11]";
-		INDEX = 2;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[10]";
-		INDEX = 3;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[9]";
-		INDEX = 4;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[8]";
-		INDEX = 5;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[7]";
-		INDEX = 6;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[6]";
-		INDEX = 7;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[5]";
-		INDEX = 8;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[4]";
-		INDEX = 9;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[3]";
-		INDEX = 10;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[2]";
-		INDEX = 11;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[1]";
-		INDEX = 12;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_address[0]";
-		INDEX = 13;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_control";
-		INDEX = 14;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_control[1]";
-		INDEX = 15;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_control[0]";
-		INDEX = 16;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu";
-		INDEX = 17;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[14]";
-		INDEX = 18;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[13]";
-		INDEX = 19;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[12]";
-		INDEX = 20;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[11]";
-		INDEX = 21;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[10]";
-		INDEX = 22;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[9]";
-		INDEX = 23;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[8]";
-		INDEX = 24;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[7]";
-		INDEX = 25;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[6]";
-		INDEX = 26;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[5]";
-		INDEX = 27;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[4]";
-		INDEX = 28;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[3]";
-		INDEX = 29;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[2]";
-		INDEX = 30;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[1]";
-		INDEX = 31;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_cpu[0]";
-		INDEX = 32;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem";
-		INDEX = 33;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[14]";
-		INDEX = 34;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[13]";
-		INDEX = 35;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[12]";
-		INDEX = 36;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[11]";
-		INDEX = 37;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[10]";
-		INDEX = 38;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[9]";
-		INDEX = 39;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[8]";
-		INDEX = 40;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[7]";
-		INDEX = 41;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[6]";
-		INDEX = 42;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[5]";
-		INDEX = 43;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[4]";
-		INDEX = 44;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[3]";
-		INDEX = 45;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[2]";
-		INDEX = 46;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[1]";
-		INDEX = 47;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[0]";
-		INDEX = 48;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address";
-		INDEX = 49;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address[3]";
-		INDEX = 50;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address[2]";
-		INDEX = 51;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address[1]";
-		INDEX = 52;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address[0]";
-		INDEX = 53;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_control";
-		INDEX = 54;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_control[1]";
-		INDEX = 55;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_control[0]";
-		INDEX = 56;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out";
-		INDEX = 57;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[14]";
-		INDEX = 58;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[13]";
-		INDEX = 59;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[12]";
-		INDEX = 60;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[11]";
-		INDEX = 61;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[10]";
-		INDEX = 62;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[9]";
-		INDEX = 63;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[8]";
-		INDEX = 64;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[7]";
-		INDEX = 65;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[6]";
-		INDEX = 66;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[5]";
-		INDEX = 67;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[4]";
-		INDEX = 68;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[3]";
-		INDEX = 69;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[2]";
-		INDEX = 70;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[1]";
-		INDEX = 71;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_out[0]";
-		INDEX = 72;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base";
-		INDEX = 73;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[11]";
-		INDEX = 74;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[10]";
-		INDEX = 75;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[9]";
-		INDEX = 76;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[8]";
-		INDEX = 77;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[7]";
-		INDEX = 78;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[6]";
-		INDEX = 79;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[5]";
-		INDEX = 80;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[4]";
-		INDEX = 81;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[3]";
-		INDEX = 82;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[2]";
-		INDEX = 83;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[1]";
-		INDEX = 84;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "base[0]";
-		INDEX = 85;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index";
-		INDEX = 86;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[11]";
-		INDEX = 87;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[10]";
-		INDEX = 88;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[9]";
-		INDEX = 89;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[8]";
-		INDEX = 90;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[7]";
-		INDEX = 91;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[6]";
-		INDEX = 92;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[5]";
-		INDEX = 93;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[4]";
-		INDEX = 94;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[3]";
-		INDEX = 95;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[2]";
-		INDEX = 96;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[1]";
-		INDEX = 97;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "index[0]";
-		INDEX = 98;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-}
-
 VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/flags.vwf")
 {
 	ZOOM{
@@ -5062,11 +4251,11 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/arithmetic_logic_unit
 VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cvwf")
 {
 	ZOOM{
-		ZBEGIN = 1901967;
-		ZEND = 2535343;
+		ZBEGIN = 4452340;
+		ZEND = 5000000;
 		NUMERATOR = 416;
 		DENOMINATOR = 239314;
-		TOP_INDEX = 0;
+		TOP_INDEX = 39;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -5213,7 +4402,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu";
+		SIGNAL = "memory_data_out_mem";
 		INDEX = 17;
 		FORMAT = T;
 		SCALE = 1;
@@ -5221,7 +4410,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[14]";
+		SIGNAL = "memory_data_out_mem[14]";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -5229,7 +4418,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[13]";
+		SIGNAL = "memory_data_out_mem[13]";
 		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
@@ -5237,7 +4426,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[12]";
+		SIGNAL = "memory_data_out_mem[12]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -5245,7 +4434,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[11]";
+		SIGNAL = "memory_data_out_mem[11]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -5253,7 +4442,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[10]";
+		SIGNAL = "memory_data_out_mem[10]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -5261,7 +4450,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[9]";
+		SIGNAL = "memory_data_out_mem[9]";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -5269,7 +4458,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[8]";
+		SIGNAL = "memory_data_out_mem[8]";
 		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
@@ -5277,7 +4466,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[7]";
+		SIGNAL = "memory_data_out_mem[7]";
 		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
@@ -5285,7 +4474,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[6]";
+		SIGNAL = "memory_data_out_mem[6]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -5293,7 +4482,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[5]";
+		SIGNAL = "memory_data_out_mem[5]";
 		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
@@ -5301,7 +4490,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[4]";
+		SIGNAL = "memory_data_out_mem[4]";
 		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
@@ -5309,7 +4498,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[3]";
+		SIGNAL = "memory_data_out_mem[3]";
 		INDEX = 29;
 		FORMAT = E;
 		SCALE = 1;
@@ -5317,7 +4506,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[2]";
+		SIGNAL = "memory_data_out_mem[2]";
 		INDEX = 30;
 		FORMAT = E;
 		SCALE = 1;
@@ -5325,7 +4514,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[1]";
+		SIGNAL = "memory_data_out_mem[1]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -5333,7 +4522,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_cpu[0]";
+		SIGNAL = "memory_data_out_mem[0]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -5341,7 +4530,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_mem";
+		SIGNAL = "registers_address";
 		INDEX = 33;
 		FORMAT = T;
 		SCALE = 1;
@@ -5349,7 +4538,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_mem[14]";
+		SIGNAL = "registers_address[3]";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -5357,7 +4546,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_mem[13]";
+		SIGNAL = "registers_address[2]";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;
@@ -5365,7 +4554,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_mem[12]";
+		SIGNAL = "registers_address[1]";
 		INDEX = 36;
 		FORMAT = E;
 		SCALE = 1;
@@ -5373,7 +4562,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_mem[11]";
+		SIGNAL = "registers_address[0]";
 		INDEX = 37;
 		FORMAT = E;
 		SCALE = 1;
@@ -5381,136 +4570,8 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_data_out_mem[10]";
-		INDEX = 38;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[9]";
-		INDEX = 39;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[8]";
-		INDEX = 40;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[7]";
-		INDEX = 41;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[6]";
-		INDEX = 42;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[5]";
-		INDEX = 43;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[4]";
-		INDEX = 44;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[3]";
-		INDEX = 45;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[2]";
-		INDEX = 46;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[1]";
-		INDEX = 47;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "memory_data_out_mem[0]";
-		INDEX = 48;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address";
-		INDEX = 49;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address[3]";
-		INDEX = 50;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address[2]";
-		INDEX = 51;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address[1]";
-		INDEX = 52;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "registers_address[0]";
-		INDEX = 53;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "registers_control";
-		INDEX = 54;
+		INDEX = 38;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5518,7 +4579,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_control[1]";
-		INDEX = 55;
+		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5526,7 +4587,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_control[0]";
-		INDEX = 56;
+		INDEX = 40;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5534,7 +4595,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out";
-		INDEX = 57;
+		INDEX = 41;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5542,7 +4603,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[14]";
-		INDEX = 58;
+		INDEX = 42;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5550,7 +4611,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[13]";
-		INDEX = 59;
+		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5558,7 +4619,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[12]";
-		INDEX = 60;
+		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5566,7 +4627,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[11]";
-		INDEX = 61;
+		INDEX = 45;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5574,7 +4635,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[10]";
-		INDEX = 62;
+		INDEX = 46;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5582,7 +4643,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[9]";
-		INDEX = 63;
+		INDEX = 47;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5590,7 +4651,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[8]";
-		INDEX = 64;
+		INDEX = 48;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5598,7 +4659,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[7]";
-		INDEX = 65;
+		INDEX = 49;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5606,7 +4667,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[6]";
-		INDEX = 66;
+		INDEX = 50;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5614,7 +4675,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[5]";
-		INDEX = 67;
+		INDEX = 51;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5622,7 +4683,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[4]";
-		INDEX = 68;
+		INDEX = 52;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5630,7 +4691,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[3]";
-		INDEX = 69;
+		INDEX = 53;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5638,7 +4699,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[2]";
-		INDEX = 70;
+		INDEX = 54;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5646,7 +4707,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[1]";
-		INDEX = 71;
+		INDEX = 55;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5654,7 +4715,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "registers_out[0]";
-		INDEX = 72;
+		INDEX = 56;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5662,7 +4723,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base";
-		INDEX = 73;
+		INDEX = 57;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5670,7 +4731,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[11]";
-		INDEX = 74;
+		INDEX = 58;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5678,7 +4739,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[10]";
-		INDEX = 75;
+		INDEX = 59;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5686,7 +4747,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[9]";
-		INDEX = 76;
+		INDEX = 60;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5694,7 +4755,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[8]";
-		INDEX = 77;
+		INDEX = 61;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5702,7 +4763,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[7]";
-		INDEX = 78;
+		INDEX = 62;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5710,7 +4771,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[6]";
-		INDEX = 79;
+		INDEX = 63;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5718,7 +4779,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[5]";
-		INDEX = 80;
+		INDEX = 64;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5726,7 +4787,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[4]";
-		INDEX = 81;
+		INDEX = 65;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5734,7 +4795,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[3]";
-		INDEX = 82;
+		INDEX = 66;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5742,7 +4803,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[2]";
-		INDEX = 83;
+		INDEX = 67;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5750,7 +4811,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[1]";
-		INDEX = 84;
+		INDEX = 68;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5758,7 +4819,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "base[0]";
-		INDEX = 85;
+		INDEX = 69;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5766,7 +4827,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index";
-		INDEX = 86;
+		INDEX = 70;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5774,7 +4835,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[11]";
-		INDEX = 87;
+		INDEX = 71;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5782,7 +4843,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[10]";
-		INDEX = 88;
+		INDEX = 72;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5790,7 +4851,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[9]";
-		INDEX = 89;
+		INDEX = 73;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5798,7 +4859,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[8]";
-		INDEX = 90;
+		INDEX = 74;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5806,7 +4867,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[7]";
-		INDEX = 91;
+		INDEX = 75;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5814,7 +4875,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[6]";
-		INDEX = 92;
+		INDEX = 76;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5822,7 +4883,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[5]";
-		INDEX = 93;
+		INDEX = 77;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5830,7 +4891,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[4]";
-		INDEX = 94;
+		INDEX = 78;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5838,7 +4899,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[3]";
-		INDEX = 95;
+		INDEX = 79;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5846,7 +4907,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[2]";
-		INDEX = 96;
+		INDEX = 80;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5854,7 +4915,7 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[1]";
-		INDEX = 97;
+		INDEX = 81;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -5862,7 +4923,1058 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cv
 	}
 	LINE{
 		SIGNAL = "index[0]";
+		INDEX = 82;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control";
+		INDEX = 83;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[5]";
+		INDEX = 84;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[4]";
+		INDEX = 85;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[3]";
+		INDEX = 86;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[2]";
+		INDEX = 87;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[1]";
+		INDEX = 88;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[0]";
+		INDEX = 89;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data";
+		INDEX = 90;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[14]";
+		INDEX = 91;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[13]";
+		INDEX = 92;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[12]";
+		INDEX = 93;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[11]";
+		INDEX = 94;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[10]";
+		INDEX = 95;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[9]";
+		INDEX = 96;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[8]";
+		INDEX = 97;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[7]";
 		INDEX = 98;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[6]";
+		INDEX = 99;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[5]";
+		INDEX = 100;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[4]";
+		INDEX = 101;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[3]";
+		INDEX = 102;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[2]";
+		INDEX = 103;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[1]";
+		INDEX = 104;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[0]";
+		INDEX = 105;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/principal.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 1000000;
+		NUMERATOR = 20;
+		DENOMINATOR = 1000;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 20000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "clk";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address";
+		INDEX = 1;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[11]";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[10]";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[9]";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[8]";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[7]";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[6]";
+		INDEX = 7;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[5]";
+		INDEX = 8;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[4]";
+		INDEX = 9;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[3]";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[2]";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[1]";
+		INDEX = 12;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_address[0]";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_control";
+		INDEX = 14;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_control[1]";
+		INDEX = 15;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_control[0]";
+		INDEX = 16;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem";
+		INDEX = 17;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[14]";
+		INDEX = 18;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[13]";
+		INDEX = 19;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[12]";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[11]";
+		INDEX = 21;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[10]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[9]";
+		INDEX = 23;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[8]";
+		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[7]";
+		INDEX = 25;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[6]";
+		INDEX = 26;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[5]";
+		INDEX = 27;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[4]";
+		INDEX = 28;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[3]";
+		INDEX = 29;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[2]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[1]";
+		INDEX = 31;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_data_out_mem[0]";
+		INDEX = 32;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_address";
+		INDEX = 33;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_address[3]";
+		INDEX = 34;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_address[2]";
+		INDEX = 35;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_address[1]";
+		INDEX = 36;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_address[0]";
+		INDEX = 37;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_control";
+		INDEX = 38;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_control[1]";
+		INDEX = 39;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_control[0]";
+		INDEX = 40;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out";
+		INDEX = 41;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[14]";
+		INDEX = 42;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[13]";
+		INDEX = 43;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[12]";
+		INDEX = 44;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[11]";
+		INDEX = 45;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[10]";
+		INDEX = 46;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[9]";
+		INDEX = 47;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[8]";
+		INDEX = 48;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[7]";
+		INDEX = 49;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[6]";
+		INDEX = 50;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[5]";
+		INDEX = 51;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[4]";
+		INDEX = 52;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[3]";
+		INDEX = 53;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[2]";
+		INDEX = 54;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[1]";
+		INDEX = 55;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "registers_out[0]";
+		INDEX = 56;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base";
+		INDEX = 57;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[11]";
+		INDEX = 58;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[10]";
+		INDEX = 59;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[9]";
+		INDEX = 60;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[8]";
+		INDEX = 61;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[7]";
+		INDEX = 62;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[6]";
+		INDEX = 63;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[5]";
+		INDEX = 64;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[4]";
+		INDEX = 65;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[3]";
+		INDEX = 66;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[2]";
+		INDEX = 67;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[1]";
+		INDEX = 68;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "base[0]";
+		INDEX = 69;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index";
+		INDEX = 70;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[11]";
+		INDEX = 71;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[10]";
+		INDEX = 72;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[9]";
+		INDEX = 73;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[8]";
+		INDEX = 74;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[7]";
+		INDEX = 75;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[6]";
+		INDEX = 76;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[5]";
+		INDEX = 77;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[4]";
+		INDEX = 78;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[3]";
+		INDEX = 79;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[2]";
+		INDEX = 80;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[1]";
+		INDEX = 81;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "index[0]";
+		INDEX = 82;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control";
+		INDEX = 83;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[5]";
+		INDEX = 84;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[4]";
+		INDEX = 85;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[3]";
+		INDEX = 86;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[2]";
+		INDEX = 87;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[1]";
+		INDEX = 88;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ALU_control[0]";
+		INDEX = 89;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data";
+		INDEX = 90;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[14]";
+		INDEX = 91;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[13]";
+		INDEX = 92;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[12]";
+		INDEX = 93;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[11]";
+		INDEX = 94;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[10]";
+		INDEX = 95;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[9]";
+		INDEX = 96;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[8]";
+		INDEX = 97;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[7]";
+		INDEX = 98;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[6]";
+		INDEX = 99;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[5]";
+		INDEX = 100;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[4]";
+		INDEX = 101;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[3]";
+		INDEX = 102;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[2]";
+		INDEX = 103;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[1]";
+		INDEX = 104;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data[0]";
+		INDEX = 105;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

@@ -93,6 +93,13 @@ applicable agreement for further details.
 		(text "index[11..0]" (rect 241 139 307 153)(font "Arial" (font_size 8)))
 		(line (pt 328 144)(pt 312 144)(line_width 3))
 	)
+	(port
+		(pt 328 160)
+		(output)
+		(text "ALU_control[5..0]" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "ALU_control[5..0]" (rect 208 155 307 169)(font "Arial" (font_size 8)))
+		(line (pt 328 160)(pt 312 160)(line_width 3))
+	)
 	(drawing
 		(rectangle (rect 16 16 312 176)(line_width 1))
 	)
