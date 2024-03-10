@@ -2,43 +2,23 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
-Type           : Worst-case tsu
-Slack          : N/A
-Required Time  : None
-Actual Time    : 3.629 ns
-From           : load_operand_1
-To             : lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[14]
-From Clock     : --
-To Clock       : clk
-Failed Paths   : 0
-
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 9.909 ns
-From           : lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[3]
-To             : ZF_out
+Actual Time    : 13.384 ns
+From           : cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[13]
+To             : registers_out[12]
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
 
-Type           : Worst-case tpd
+Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 11.133 ns
-From           : AND
-To             : ZF_out
-From Clock     : --
-To Clock       : --
-Failed Paths   : 0
-
-Type           : Worst-case th
-Slack          : N/A
-Required Time  : None
-Actual Time    : -2.145 ns
-From           : operand_1[2]
-To             : lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[2]
-From Clock     : --
+Actual Time    : 75.46 MHz ( period = 13.252 ns )
+From           : cpu:inst|control_block:inst|takt:inst|lpm_counter3:inst2|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[2]
+To             : cpu:inst|registers:inst2|lpm_dff0:register_8|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
 
