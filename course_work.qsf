@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY principal
+set_global_assignment -name TOP_LEVEL_ENTITY control_block
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:02:52  FEBRUARY 14, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
@@ -96,6 +96,8 @@ set_global_assignment -name QIP_FILE lpm_inv0.qip
 set_global_assignment -name QIP_FILE lpm_clshift0.qip
 set_global_assignment -name QIP_FILE lpm_compare3.qip
 set_global_assignment -name VECTOR_WAVEFORM_FILE arithmetic_logic_unit.vwf
+set_global_assignment -name BDF_FILE address_resolver.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE address_resolver.vwf
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE principal.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
