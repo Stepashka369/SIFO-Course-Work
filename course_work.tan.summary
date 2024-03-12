@@ -2,35 +2,45 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 4.852 ns
+From           : push
+To             : lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 14.470 ns
-From           : cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[13]
-To             : data[13]
+Actual Time    : 9.199 ns
+From           : lpm_dff2:inst|lpm_ff:lpm_ff_component|dffs[2]
+To             : data_out[11]
 From Clock     : clk
 To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -1.942 ns
+From           : pop
+To             : inst33
+From Clock     : --
+To Clock       : clk
 Failed Paths   : 0
 
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 53.64 MHz ( period = 18.644 ns )
-From           : cpu:inst|control_block:inst|takt:inst|lpm_counter3:inst2|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated|safe_q[1]
-To             : cpu:inst|registers:inst2|lpm_dff0:register_11|lpm_ff:lpm_ff_component|dffs[12]~DUPLICATE
+Actual Time    : 431.22 MHz ( period = 2.319 ns )
+From           : lpm_dff2:inst|lpm_ff:lpm_ff_component|dffs[2]
+To             : lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[3]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
-
-Type           : Clock Hold: 'clk'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : cpu:inst|arithmetic_logic_unit:inst5|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
-To             : cpu:inst|flags:inst1|inst4
-From Clock     : clk
-To Clock       : clk
-Failed Paths   : 65
 
 Type           : Total number of failed paths
 Slack          : 
@@ -40,7 +50,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 65
+Failed Paths   : 0
 
 --------------------------------------------------------------------------------------
 
