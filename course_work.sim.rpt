@@ -1,5 +1,5 @@
 Simulator report for course_work
-Tue Mar 12 21:17:20 2024
+Wed Mar 13 13:03:51 2024
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -45,9 +45,9 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
-; Simulation Netlist Size     ; 316 nodes    ;
-; Simulation Coverage         ;      37.03 % ;
-; Total Number of Transitions ; 2111         ;
+; Simulation Netlist Size     ; 31 nodes     ;
+; Simulation Coverage         ;      45.16 % ;
+; Total Number of Transitions ; 36           ;
 ; Simulation Breakpoints      ; 0            ;
 ; Family                      ; Stratix II   ;
 +-----------------------------+--------------+
@@ -61,7 +61,7 @@ applicable agreement for further details.
 ; Simulation mode                                                                            ; Functional ; Timing        ;
 ; Start time                                                                                 ; 0 ns       ; 0 ns          ;
 ; Simulation results format                                                                  ; CVWF       ;               ;
-; Vector input source                                                                        ; stack.vwf  ;               ;
+; Vector input source                                                                        ; Block1.vwf ;               ;
 ; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
 ; Check outputs                                                                              ; Off        ; Off           ;
 ; Report simulation coverage                                                                 ; On         ; On            ;
@@ -94,421 +94,89 @@ Please use Quartus II to view the waveform report data.
 +-----------------------------------------------------+--------------+
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
-; Total coverage as a percentage                      ;      37.03 % ;
-; Total nodes checked                                 ; 316          ;
-; Total output ports checked                          ; 316          ;
-; Total output ports with complete 1/0-value coverage ; 117          ;
-; Total output ports with no 1/0-value coverage       ; 64           ;
-; Total output ports with no 1-value coverage         ; 131          ;
-; Total output ports with no 0-value coverage         ; 132          ;
+; Total coverage as a percentage                      ;      45.16 % ;
+; Total nodes checked                                 ; 31           ;
+; Total output ports checked                          ; 31           ;
+; Total output ports with complete 1/0-value coverage ; 14           ;
+; Total output ports with no 1/0-value coverage       ; 17           ;
+; Total output ports with no 1-value coverage         ; 17           ;
+; Total output ports with no 0-value coverage         ; 17           ;
 +-----------------------------------------------------+--------------+
 
 
 The following table displays output ports that toggle between 1 and 0 during simulation.
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Complete 1/0-Value Coverage                                                                                                                                                                                              ;
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------+
-; Node Name                                                                                         ; Output Port Name                                                                                  ; Output Port Type ;
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------+
-; |stack|full                                                                                       ; |stack|full                                                                                       ; pin_out          ;
-; |stack|clk                                                                                        ; |stack|clk                                                                                        ; out              ;
-; |stack|inst32                                                                                     ; |stack|inst32                                                                                     ; out0             ;
-; |stack|inst41                                                                                     ; |stack|inst41                                                                                     ; out0             ;
-; |stack|empty                                                                                      ; |stack|empty                                                                                      ; pin_out          ;
-; |stack|pop                                                                                        ; |stack|pop                                                                                        ; out              ;
-; |stack|inst43                                                                                     ; |stack|inst43                                                                                     ; out0             ;
-; |stack|inst31                                                                                     ; |stack|inst31                                                                                     ; regout           ;
-; |stack|inst30                                                                                     ; |stack|inst30                                                                                     ; regout           ;
-; |stack|push                                                                                       ; |stack|push                                                                                       ; out              ;
-; |stack|new_stack_pointer[2]                                                                       ; |stack|new_stack_pointer[2]                                                                       ; out0             ;
-; |stack|new_stack_pointer[1]                                                                       ; |stack|new_stack_pointer[1]                                                                       ; out0             ;
-; |stack|new_stack_pointer[0]                                                                       ; |stack|new_stack_pointer[0]                                                                       ; out0             ;
-; |stack|data_out[11]                                                                               ; |stack|data_out[11]                                                                               ; pin_out          ;
-; |stack|data_out[10]                                                                               ; |stack|data_out[10]                                                                               ; pin_out          ;
-; |stack|data_out[9]                                                                                ; |stack|data_out[9]                                                                                ; pin_out          ;
-; |stack|data_out[8]                                                                                ; |stack|data_out[8]                                                                                ; pin_out          ;
-; |stack|data_out[7]                                                                                ; |stack|data_out[7]                                                                                ; pin_out          ;
-; |stack|data_out[6]                                                                                ; |stack|data_out[6]                                                                                ; pin_out          ;
-; |stack|data_out[5]                                                                                ; |stack|data_out[5]                                                                                ; pin_out          ;
-; |stack|data_out[4]                                                                                ; |stack|data_out[4]                                                                                ; pin_out          ;
-; |stack|data_out[3]                                                                                ; |stack|data_out[3]                                                                                ; pin_out          ;
-; |stack|data_out[2]                                                                                ; |stack|data_out[2]                                                                                ; pin_out          ;
-; |stack|data_out[1]                                                                                ; |stack|data_out[1]                                                                                ; pin_out          ;
-; |stack|data_out[0]                                                                                ; |stack|data_out[0]                                                                                ; pin_out          ;
-; |stack|data_out~3                                                                                 ; |stack|data_out~3                                                                                 ; out0             ;
-; |stack|data_out~4                                                                                 ; |stack|data_out~4                                                                                 ; out0             ;
-; |stack|data_out~5                                                                                 ; |stack|data_out~5                                                                                 ; out0             ;
-; |stack|data_out~6                                                                                 ; |stack|data_out~6                                                                                 ; out0             ;
-; |stack|data_out~7                                                                                 ; |stack|data_out~7                                                                                 ; out0             ;
-; |stack|data_out~8                                                                                 ; |stack|data_out~8                                                                                 ; out0             ;
-; |stack|data_out~9                                                                                 ; |stack|data_out~9                                                                                 ; out0             ;
-; |stack|data_out~10                                                                                ; |stack|data_out~10                                                                                ; out0             ;
-; |stack|data_out~11                                                                                ; |stack|data_out~11                                                                                ; out0             ;
-; |stack|data_out~12                                                                                ; |stack|data_out~12                                                                                ; out0             ;
-; |stack|data_out~13                                                                                ; |stack|data_out~13                                                                                ; out0             ;
-; |stack|data_out~14                                                                                ; |stack|data_out~14                                                                                ; out0             ;
-; |stack|inst17                                                                                     ; |stack|inst17                                                                                     ; out0             ;
-; |stack|inst34                                                                                     ; |stack|inst34                                                                                     ; regout           ;
-; |stack|inst33                                                                                     ; |stack|inst33                                                                                     ; regout           ;
-; |stack|inst16                                                                                     ; |stack|inst16                                                                                     ; out0             ;
-; |stack|data_in[11]                                                                                ; |stack|data_in[11]                                                                                ; out              ;
-; |stack|data_in[10]                                                                                ; |stack|data_in[10]                                                                                ; out              ;
-; |stack|data_in[9]                                                                                 ; |stack|data_in[9]                                                                                 ; out              ;
-; |stack|data_in[8]                                                                                 ; |stack|data_in[8]                                                                                 ; out              ;
-; |stack|data_in[7]                                                                                 ; |stack|data_in[7]                                                                                 ; out              ;
-; |stack|data_in[6]                                                                                 ; |stack|data_in[6]                                                                                 ; out              ;
-; |stack|data_in[5]                                                                                 ; |stack|data_in[5]                                                                                 ; out              ;
-; |stack|data_in[4]                                                                                 ; |stack|data_in[4]                                                                                 ; out              ;
-; |stack|data_in[3]                                                                                 ; |stack|data_in[3]                                                                                 ; out              ;
-; |stack|data_in[2]                                                                                 ; |stack|data_in[2]                                                                                 ; out              ;
-; |stack|data_in[1]                                                                                 ; |stack|data_in[1]                                                                                 ; out              ;
-; |stack|data_in[0]                                                                                 ; |stack|data_in[0]                                                                                 ; out              ;
-; |stack|inst19                                                                                     ; |stack|inst19                                                                                     ; out0             ;
-; |stack|inst35                                                                                     ; |stack|inst35                                                                                     ; out0             ;
-; |stack|inst21                                                                                     ; |stack|inst21                                                                                     ; out0             ;
-; |stack|inst36                                                                                     ; |stack|inst36                                                                                     ; out0             ;
-; |stack|inst23                                                                                     ; |stack|inst23                                                                                     ; out0             ;
-; |stack|inst37                                                                                     ; |stack|inst37                                                                                     ; out0             ;
-; |stack|inst25                                                                                     ; |stack|inst25                                                                                     ; out0             ;
-; |stack|inst38                                                                                     ; |stack|inst38                                                                                     ; out0             ;
-; |stack|inst27                                                                                     ; |stack|inst27                                                                                     ; out0             ;
-; |stack|inst39                                                                                     ; |stack|inst39                                                                                     ; out0             ;
-; |stack|inst29                                                                                     ; |stack|inst29                                                                                     ; out0             ;
-; |stack|inst40                                                                                     ; |stack|inst40                                                                                     ; out0             ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[10]                                            ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[10]                                            ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[8]                                             ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[8]                                             ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[0]                                             ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[0]                                             ; regout           ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[11]                                ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[11]                                ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[10]                                ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[10]                                ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[8]                                 ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[8]                                 ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[5]                                 ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[5]                                 ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[1]                                 ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[1]                                 ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[0]                                 ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[0]                                 ; out              ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[10]                                            ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[10]                                            ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[6]                                             ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[6]                                             ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[1]                                             ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[1]                                             ; regout           ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[11]                                ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[11]                                ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[10]                                ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[10]                                ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[9]                                 ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[9]                                 ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[7]                                 ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[7]                                 ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[6]                                 ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[6]                                 ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[5]                                 ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[5]                                 ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[3]                                 ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[3]                                 ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[1]                                 ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[1]                                 ; out              ;
-; |stack|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component|dout[2]                                 ; |stack|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component|dout[2]                                 ; out              ;
-; |stack|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component|dout[1]                                 ; |stack|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component|dout[1]                                 ; out              ;
-; |stack|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component|dout[0]                                 ; |stack|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component|dout[0]                                 ; out              ;
-; |stack|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component|dout[2]                                 ; |stack|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component|dout[2]                                 ; out              ;
-; |stack|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component|dout[1]                                 ; |stack|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component|dout[1]                                 ; out              ;
-; |stack|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component|dout[0]                                 ; |stack|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component|dout[0]                                 ; out              ;
-; |stack|lpm_dff2:inst|lpm_ff:lpm_ff_component|dffs[2]                                              ; |stack|lpm_dff2:inst|lpm_ff:lpm_ff_component|dffs[2]                                              ; regout           ;
-; |stack|lpm_dff2:inst|lpm_ff:lpm_ff_component|dffs[1]                                              ; |stack|lpm_dff2:inst|lpm_ff:lpm_ff_component|dffs[1]                                              ; regout           ;
-; |stack|lpm_dff2:inst|lpm_ff:lpm_ff_component|dffs[0]                                              ; |stack|lpm_dff2:inst|lpm_ff:lpm_ff_component|dffs[0]                                              ; regout           ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode19w[3] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode19w[3] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode19w[2] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode19w[2] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode1w[3]  ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode1w[3]  ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode1w[2]  ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode1w[2]  ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode30w[3] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode30w[3] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode30w[2] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode30w[2] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode41w[3] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode41w[3] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode41w[2] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode41w[2] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode52w[3] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode52w[3] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode52w[2] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode52w[2] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode63w[3] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode63w[3] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode63w[2] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode63w[2] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode74w[3] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode74w[3] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode74w[2] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode74w[2] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode85w[3] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode85w[3] ; out0             ;
-; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode85w[2] ; |stack|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode85w[2] ; out0             ;
-; |stack|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated|op_1~0     ; |stack|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated|op_1~0     ; out0             ;
-; |stack|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated|op_1~1     ; |stack|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated|op_1~1     ; out0             ;
-; |stack|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated|op_1~2     ; |stack|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated|op_1~2     ; out0             ;
-; |stack|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated|op_1~3     ; |stack|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated|op_1~3     ; out0             ;
-; |stack|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_toh:auto_generated|op_1~0     ; |stack|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_toh:auto_generated|op_1~0     ; out0             ;
-; |stack|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_toh:auto_generated|op_1~1     ; |stack|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_toh:auto_generated|op_1~1     ; out0             ;
-; |stack|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_toh:auto_generated|op_1~2     ; |stack|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_toh:auto_generated|op_1~2     ; out0             ;
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                        ;
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                      ; Output Port Name                                                                               ; Output Port Type ;
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+
+; |Block1|borrow_in                                                                              ; |Block1|borrow_in                                                                              ; pin_out          ;
+; |Block1|data_a[3]                                                                              ; |Block1|data_a[3]                                                                              ; out              ;
+; |Block1|data_a[2]                                                                              ; |Block1|data_a[2]                                                                              ; out              ;
+; |Block1|data_a[0]                                                                              ; |Block1|data_a[0]                                                                              ; out              ;
+; |Block1|data_b[2]                                                                              ; |Block1|data_b[2]                                                                              ; out              ;
+; |Block1|overflow                                                                               ; |Block1|overflow                                                                               ; pin_out          ;
+; |Block1|result[3]                                                                              ; |Block1|result[3]                                                                              ; pin_out          ;
+; |Block1|result[0]                                                                              ; |Block1|result[0]                                                                              ; pin_out          ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~0  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~0  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~8  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~8  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~10 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~10 ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~12 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~12 ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~13 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~13 ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~14 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~14 ; out0             ;
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Missing 1-Value Coverage                                                                                                                                   ;
-+--------------------------------------------------------------------+--------------------------------------------------------------------+------------------+
-; Node Name                                                          ; Output Port Name                                                   ; Output Port Type ;
-+--------------------------------------------------------------------+--------------------------------------------------------------------+------------------+
-; |stack|data_out[14]                                                ; |stack|data_out[14]                                                ; pin_out          ;
-; |stack|data_out[13]                                                ; |stack|data_out[13]                                                ; pin_out          ;
-; |stack|data_out[12]                                                ; |stack|data_out[12]                                                ; pin_out          ;
-; |stack|data_out~0                                                  ; |stack|data_out~0                                                  ; out0             ;
-; |stack|data_out~1                                                  ; |stack|data_out~1                                                  ; out0             ;
-; |stack|data_out~2                                                  ; |stack|data_out~2                                                  ; out0             ;
-; |stack|data_in[14]                                                 ; |stack|data_in[14]                                                 ; out              ;
-; |stack|data_in[13]                                                 ; |stack|data_in[13]                                                 ; out              ;
-; |stack|data_in[12]                                                 ; |stack|data_in[12]                                                 ; out              ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[14]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[14]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[13]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[13]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[12]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[12]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[11]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[11]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[10]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[10]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[7]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[7]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[6]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[6]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[3]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[3]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]             ; regout           ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[14] ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[14] ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[13] ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[13] ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[12] ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[12] ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[11] ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[11] ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[10] ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[10] ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[7]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[7]  ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[6]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[6]  ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[3]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[3]  ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[2]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[2]  ; out              ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[11]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[11]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[10]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[10]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[8]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[8]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[7]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[7]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[6]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[6]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[4]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[4]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[3]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[3]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[0]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[0]              ; regout           ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[14] ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[14] ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[13] ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[13] ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[12] ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[12] ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[11] ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[11] ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[10] ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[10] ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[8]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[8]  ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[7]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[7]  ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[6]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[6]  ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[4]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[4]  ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[3]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[3]  ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[2]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[2]  ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[0]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[0]  ; out              ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[11]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[11]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[10]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[10]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[9]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[9]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[7]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[7]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[6]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[6]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[5]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[5]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[3]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[3]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[1]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[1]              ; regout           ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[14] ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[14] ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[13] ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[13] ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[12] ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[12] ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[11] ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[11] ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[10] ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[10] ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[9]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[9]  ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[7]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[7]  ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[6]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[6]  ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[5]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[5]  ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[3]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[3]  ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[2]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[2]  ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[1]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[1]  ; out              ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[9]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[9]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[5]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[5]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[1]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[1]              ; regout           ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[14] ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[14] ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[13] ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[13] ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[12] ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[12] ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[9]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[9]  ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[5]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[5]  ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[1]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[1]  ; out              ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[6]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[6]              ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[4]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[4]              ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[14] ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[14] ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[13] ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[13] ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[12] ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[12] ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[6]  ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[6]  ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[4]  ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[4]  ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[2]  ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[2]  ; out              ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[8]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[8]              ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[0]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[0]              ; regout           ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[14] ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[14] ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[13] ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[13] ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[12] ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[12] ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[8]  ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[8]  ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[0]  ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[0]  ; out              ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[11]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[11]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[10]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[10]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[9]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[9]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[7]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[7]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[6]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[6]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[4]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[4]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[14] ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[14] ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[13] ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[13] ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[12] ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[12] ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[11] ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[11] ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[10] ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[10] ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[9]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[9]  ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[7]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[7]  ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[6]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[6]  ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[4]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[4]  ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[3]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[3]  ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[2]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[2]  ; out              ;
-+--------------------------------------------------------------------+--------------------------------------------------------------------+------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                                           ;
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                      ; Output Port Name                                                                               ; Output Port Type ;
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+
+; |Block1|data_a[1]                                                                              ; |Block1|data_a[1]                                                                              ; out              ;
+; |Block1|data_b[3]                                                                              ; |Block1|data_b[3]                                                                              ; out              ;
+; |Block1|data_b[1]                                                                              ; |Block1|data_b[1]                                                                              ; out              ;
+; |Block1|data_b[0]                                                                              ; |Block1|data_b[0]                                                                              ; out              ;
+; |Block1|result[2]                                                                              ; |Block1|result[2]                                                                              ; pin_out          ;
+; |Block1|result[1]                                                                              ; |Block1|result[1]                                                                              ; pin_out          ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~1  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~1  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~2  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~2  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~3  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~3  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~4  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~4  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~5  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~5  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~6  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~6  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~7  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~7  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~9  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~9  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~11 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~11 ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~15 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~15 ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~16 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~16 ; out0             ;
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 0 during simulation.
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Missing 0-Value Coverage                                                                                                                                   ;
-+--------------------------------------------------------------------+--------------------------------------------------------------------+------------------+
-; Node Name                                                          ; Output Port Name                                                   ; Output Port Type ;
-+--------------------------------------------------------------------+--------------------------------------------------------------------+------------------+
-; |stack|data_in[14]                                                 ; |stack|data_in[14]                                                 ; out              ;
-; |stack|data_in[13]                                                 ; |stack|data_in[13]                                                 ; out              ;
-; |stack|data_in[12]                                                 ; |stack|data_in[12]                                                 ; out              ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[14]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[14]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[13]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[13]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[12]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[12]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[11]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[11]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[10]            ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[10]            ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[9]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[9]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[8]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[8]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[7]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[7]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[6]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[6]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[5]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[5]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[4]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[4]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[3]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[3]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[2]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[1]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[1]             ; regout           ;
-; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[0]             ; |stack|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[0]             ; regout           ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[9]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[9]  ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[8]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[8]  ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[5]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[5]  ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[4]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[4]  ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[1]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[1]  ; out              ;
-; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[0]  ; |stack|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component|dout[0]  ; out              ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[11]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[11]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[10]             ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[10]             ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[9]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[9]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[8]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[8]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[7]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[7]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[6]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[6]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[5]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[5]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[4]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[4]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[3]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[3]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[1]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[1]              ; regout           ;
-; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[0]              ; |stack|lpm_dff0:inst9|lpm_ff:lpm_ff_component|dffs[0]              ; regout           ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[9]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[9]  ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[5]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[5]  ; out              ;
-; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[1]  ; |stack|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component|dout[1]  ; out              ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[11]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[11]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[10]             ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[10]             ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[9]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[9]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[8]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[8]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[7]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[7]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[6]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[6]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[5]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[5]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[4]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[4]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[3]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[3]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[1]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[1]              ; regout           ;
-; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[0]              ; |stack|lpm_dff0:inst8|lpm_ff:lpm_ff_component|dffs[0]              ; regout           ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[8]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[8]  ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[4]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[4]  ; out              ;
-; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[0]  ; |stack|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component|dout[0]  ; out              ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[11]             ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[11]             ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[10]             ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[10]             ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[9]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[9]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[8]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[8]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[7]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[7]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[6]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[6]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[5]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[5]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[4]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[4]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[3]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[3]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[1]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[1]              ; regout           ;
-; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[0]              ; |stack|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[0]              ; regout           ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[11] ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[11] ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[10] ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[10] ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[8]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[8]  ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[7]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[7]  ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[6]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[6]  ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[4]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[4]  ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[3]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[3]  ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[2]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[2]  ; out              ;
-; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[0]  ; |stack|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component|dout[0]  ; out              ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[11]             ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[11]             ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[9]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[9]              ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[7]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[7]              ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[6]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[6]              ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[5]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[5]              ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[4]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[4]              ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[3]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[3]              ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[1]              ; |stack|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[1]              ; regout           ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[9]  ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[9]  ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[7]  ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[7]  ; out              ;
-; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[3]  ; |stack|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component|dout[3]  ; out              ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[11]             ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[11]             ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[9]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[9]              ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[8]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[8]              ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]              ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[5]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[5]              ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[4]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[4]              ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[3]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[3]              ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[0]              ; |stack|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[0]              ; regout           ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[4]  ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[4]  ; out              ;
-; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[2]  ; |stack|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component|dout[2]  ; out              ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[14]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[14]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[13]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[13]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[12]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[12]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[11]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[11]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[10]             ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[10]             ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[9]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[9]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[8]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[8]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[7]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[7]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[6]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[6]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[5]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[5]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[4]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[4]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[2]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[2]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[1]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[1]              ; regout           ;
-; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[0]              ; |stack|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[0]              ; regout           ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[8]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[8]  ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[5]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[5]  ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[1]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[1]  ; out              ;
-; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[0]  ; |stack|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[0]  ; out              ;
-+--------------------------------------------------------------------+--------------------------------------------------------------------+------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                                           ;
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                      ; Output Port Name                                                                               ; Output Port Type ;
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+
+; |Block1|data_a[1]                                                                              ; |Block1|data_a[1]                                                                              ; out              ;
+; |Block1|data_b[3]                                                                              ; |Block1|data_b[3]                                                                              ; out              ;
+; |Block1|data_b[1]                                                                              ; |Block1|data_b[1]                                                                              ; out              ;
+; |Block1|data_b[0]                                                                              ; |Block1|data_b[0]                                                                              ; out              ;
+; |Block1|result[2]                                                                              ; |Block1|result[2]                                                                              ; pin_out          ;
+; |Block1|result[1]                                                                              ; |Block1|result[1]                                                                              ; pin_out          ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~1  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~1  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~2  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~2  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~3  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~3  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~4  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~4  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~5  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~5  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~6  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~6  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~7  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~7  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~9  ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~9  ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~11 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~11 ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~15 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~15 ; out0             ;
+; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~16 ; |Block1|lpm_add_sub6:inst|lpm_add_sub:lpm_add_sub_component|add_sub_p0j:auto_generated|op_1~16 ; out0             ;
++------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------+
 
 
 +---------------------+
@@ -524,20 +192,18 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Tue Mar 12 21:17:20 2024
+    Info: Processing started: Wed Mar 13 13:03:50 2024
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off course_work -c course_work
-Info: Using vector source file "G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/stack.vwf"
+Info: Using vector source file "G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/Block1.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
-Warning: Found clock-sensitive change during active clock edge at time 10.0 ns on register "|stack|inst30"
-Warning: Found clock-sensitive change during active clock edge at time 170.0 ns on register "|stack|inst33"
 Info: Simulation partitioned into 1 sub-simulations
-Info: Simulation coverage is      37.03 %
-Info: Number of transitions in simulation is 2111
-Info: Quartus II Simulator was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 153 megabytes
-    Info: Processing ended: Tue Mar 12 21:17:20 2024
-    Info: Elapsed time: 00:00:00
+Info: Simulation coverage is      45.16 %
+Info: Number of transitions in simulation is 36
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 151 megabytes
+    Info: Processing ended: Wed Mar 13 13:03:51 2024
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 
