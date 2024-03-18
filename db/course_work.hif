@@ -13953,46 +13953,6 @@ cpu:inst
 
 # end
 # entity
-principal
-# storage
-db|course_work.(141).cnf
-db|course_work.(141).cnf
-# case_insensitive
-# source_file
-principal.bdf
-6bae197c095d1544664aba2117997a
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
-control_block
-# storage
-db|course_work.(0).cnf
-db|course_work.(0).cnf
-# case_insensitive
-# source_file
-control_block.bdf
-42797f38fd1748a68b836ad72c69879
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-cpu:inst|control_block:inst
-}
-# macro_sequence
-
-# end
-# entity
 altsyncram_fb51
 # storage
 db|course_work.(142).cnf
@@ -14245,6 +14205,46 @@ ram.hex
 }
 # hierarchies {
 memory:inst6|lpm_ram_dq0:inst1|altsyncram:altsyncram_component|altsyncram_d2c1:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+control_block
+# storage
+db|course_work.(0).cnf
+db|course_work.(0).cnf
+# case_insensitive
+# source_file
+control_block.bdf
+3562aa682e7cc8daf504e8fffd0aef2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+cpu:inst|control_block:inst
+}
+# macro_sequence
+
+# end
+# entity
+principal
+# storage
+db|course_work.(141).cnf
+db|course_work.(141).cnf
+# case_insensitive
+# source_file
+principal.bdf
+d42e91ded3ad11c7b079bf564df0ed77
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 

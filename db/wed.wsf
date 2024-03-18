@@ -6348,8 +6348,8 @@ VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/principal.vwf")
 VECTOR("G:/studies/6 sem/SIFO/course_work/SIFO-Course-Work/db/course_work.sim.cvwf")
 {
 	ZOOM{
-		ZBEGIN = 22909440;
-		ZEND = 23292229;
+		ZBEGIN = 322363548;
+		ZEND = 322826874;
 		NUMERATOR = 808;
 		DENOMINATOR = 382789;
 		TOP_INDEX = 0;
