@@ -73,6 +73,13 @@ applicable agreement for further details.
 		(line (pt 0 128)(pt 16 128)(line_width 1))
 	)
 	(port
+		(pt 0 144)
+		(input)
+		(text "OF" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "OF" (rect 21 139 37 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
 		(pt 304 32)
 		(output)
 		(text "memory_control[1..0]" (rect 0 0 119 14)(font "Arial" (font_size 8)))
@@ -103,8 +110,8 @@ applicable agreement for further details.
 	(port
 		(pt 304 96)
 		(output)
-		(text "ALU_control[5..0]" (rect 0 0 99 14)(font "Arial" (font_size 8)))
-		(text "ALU_control[5..0]" (rect 184 91 283 105)(font "Arial" (font_size 8)))
+		(text "ALU_control[7..0]" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "ALU_control[7..0]" (rect 184 91 283 105)(font "Arial" (font_size 8)))
 		(line (pt 304 96)(pt 288 96)(line_width 3))
 	)
 	(port

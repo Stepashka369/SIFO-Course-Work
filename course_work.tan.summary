@@ -2,15 +2,35 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
-Type           : Worst-case tpd
+Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 10.847 ns
-From           : data_b[2]
-To             : result[2]
-From Clock     : --
+Actual Time    : 15.636 ns
+From           : cpu:inst|arithmetic_logic_unit:inst3|inst16
+To             : ZF_new
+From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 56.14 MHz ( period = 17.814 ns )
+From           : cpu:inst|arithmetic_logic_unit:inst3|inst16
+To             : cpu:inst|stack:inst8|lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[9]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[12]
+To             : cpu:inst|flags:inst1|inst7
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 120
 
 Type           : Total number of failed paths
 Slack          : 
@@ -20,7 +40,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 0
+Failed Paths   : 120
 
 --------------------------------------------------------------------------------------
 
