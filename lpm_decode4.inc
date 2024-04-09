@@ -19,7 +19,6 @@ FUNCTION lpm_decode4
 )
 
 RETURNS (
-	eq0,
 	eq1,
 	eq10,
 	eq11,
@@ -34,17 +33,7 @@ RETURNS (
 	eq2,
 	eq20,
 	eq21,
-	eq22,
-	eq23,
-	eq24,
-	eq25,
-	eq26,
-	eq27,
-	eq28,
-	eq29,
 	eq3,
-	eq30,
-	eq31,
 	eq4,
 	eq5,
 	eq6,

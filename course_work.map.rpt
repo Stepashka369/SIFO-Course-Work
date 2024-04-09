@@ -1,5 +1,5 @@
 Analysis & Synthesis report for course_work
-Mon Mar 18 17:54:48 2024
+Tue Apr 09 13:17:19 2024
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -105,27 +105,27 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
  97. Parameter Settings for User Entity Instance: cpu:inst|registers:inst2|lpm_dff0:register_12|lpm_ff:lpm_ff_component
  98. Parameter Settings for User Entity Instance: cpu:inst|registers:inst2|lpm_bustri1:inst31|lpm_bustri:lpm_bustri_component
  99. Parameter Settings for User Entity Instance: cpu:inst|registers:inst2|lpm_dff0:register_13|lpm_ff:lpm_ff_component
-100. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_decode1:inst11|lpm_decode:lpm_decode_component
-101. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component
-102. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component
-103. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component
-104. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component
-105. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component
-106. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component
-107. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component
-108. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst4|lpm_ff:lpm_ff_component
-109. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component
-110. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component
-111. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component
-112. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst6|lpm_ff:lpm_ff_component
-113. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component
-114. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst7|lpm_ff:lpm_ff_component
-115. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component
-116. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst8|lpm_ff:lpm_ff_component
-117. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component
-118. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst9|lpm_ff:lpm_ff_component
-119. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component
-120. Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst10|lpm_ff:lpm_ff_component
+100. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_decode1:inst11|lpm_decode:lpm_decode_component
+101. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component
+102. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component
+103. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component
+104. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component
+105. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component
+106. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component
+107. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component
+108. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst4|lpm_ff:lpm_ff_component
+109. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component
+110. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst5|lpm_ff:lpm_ff_component
+111. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component
+112. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst6|lpm_ff:lpm_ff_component
+113. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component
+114. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst7|lpm_ff:lpm_ff_component
+115. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component
+116. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst8|lpm_ff:lpm_ff_component
+117. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component
+118. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst9|lpm_ff:lpm_ff_component
+119. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component
+120. Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst10|lpm_ff:lpm_ff_component
 121. Parameter Settings for User Entity Instance: memory:inst6|lpm_compare0:inst13|lpm_compare:lpm_compare_component
 122. Parameter Settings for User Entity Instance: memory:inst6|lpm_counter7:inst17|lpm_counter:lpm_counter_component
 123. Parameter Settings for User Entity Instance: memory:inst6|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component
@@ -164,16 +164,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Mon Mar 18 17:54:48 2024   ;
+; Analysis & Synthesis Status   ; Successful - Tue Apr 09 13:17:18 2024   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; course_work                             ;
 ; Top-level Entity Name         ; principal                               ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 643                                     ;
-;     Dedicated logic registers ; 428                                     ;
-; Total registers               ; 428                                     ;
-; Total pins                    ; 144                                     ;
+;     Combinational ALUTs       ; 645                                     ;
+;     Dedicated logic registers ; 430                                     ;
+; Total registers               ; 430                                     ;
+; Total pins                    ; 157                                     ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 61,440                                  ;
 ; DSP block 9-bit elements      ; 0                                       ;
@@ -371,39 +371,39 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+-------+
 ; Resource                                      ; Usage ;
 +-----------------------------------------------+-------+
-; Estimated ALUTs Used                          ; 643   ;
-; Dedicated logic registers                     ; 428   ;
+; Estimated ALUTs Used                          ; 645   ;
+; Dedicated logic registers                     ; 430   ;
 ;                                               ;       ;
 ; Estimated ALUTs Unavailable                   ; 0     ;
 ;                                               ;       ;
-; Total combinational functions                 ; 643   ;
+; Total combinational functions                 ; 645   ;
 ; Combinational ALUT usage by number of inputs  ;       ;
 ;     -- 7 input functions                      ; 0     ;
-;     -- 6 input functions                      ; 160   ;
-;     -- 5 input functions                      ; 164   ;
-;     -- 4 input functions                      ; 198   ;
-;     -- <=3 input functions                    ; 121   ;
+;     -- 6 input functions                      ; 233   ;
+;     -- 5 input functions                      ; 142   ;
+;     -- 4 input functions                      ; 140   ;
+;     -- <=3 input functions                    ; 130   ;
 ;                                               ;       ;
 ; Combinational ALUTs by mode                   ;       ;
-;     -- normal mode                            ; 584   ;
+;     -- normal mode                            ; 586   ;
 ;     -- extended LUT mode                      ; 0     ;
 ;     -- arithmetic mode                        ; 47    ;
 ;     -- shared arithmetic mode                 ; 12    ;
 ;                                               ;       ;
-; Estimated ALUT/register pairs used            ; 870   ;
+; Estimated ALUT/register pairs used            ; 921   ;
 ;                                               ;       ;
-; Total registers                               ; 428   ;
-;     -- Dedicated logic registers              ; 428   ;
+; Total registers                               ; 430   ;
+;     -- Dedicated logic registers              ; 430   ;
 ;     -- I/O registers                          ; 0     ;
 ;                                               ;       ;
-; Estimated ALMs:  partially or completely used ; 435   ;
+; Estimated ALMs:  partially or completely used ; 461   ;
 ;                                               ;       ;
-; I/O pins                                      ; 144   ;
+; I/O pins                                      ; 157   ;
 ; Total block memory bits                       ; 61440 ;
 ; Maximum fan-out node                          ; clk   ;
-; Maximum fan-out                               ; 458   ;
-; Total fan-out                                 ; 4783  ;
-; Average fan-out                               ; 3.84  ;
+; Maximum fan-out                               ; 457   ;
+; Total fan-out                                 ; 4932  ;
+; Average fan-out                               ; 3.91  ;
 +-----------------------------------------------+-------+
 
 
@@ -412,38 +412,36 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                         ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                              ; Library Name ;
 +----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |principal                                         ; 643 (0)           ; 428 (0)      ; 61440             ; 0            ; 0       ; 0         ; 0         ; 144  ; 0            ; |principal                                                                                                                                       ; work         ;
-;    |cpu:inst|                                      ; 601 (0)           ; 425 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst                                                                                                                              ;              ;
-;       |arithmetic_logic_unit:inst3|                ; 133 (1)           ; 31 (1)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3                                                                                                  ; work         ;
+; |principal                                         ; 645 (0)           ; 430 (0)      ; 61440             ; 0            ; 0       ; 0         ; 0         ; 157  ; 0            ; |principal                                                                                                                                       ; work         ;
+;    |cpu:inst|                                      ; 603 (0)           ; 427 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst                                                                                                                              ;              ;
+;       |arithmetic_logic_unit:inst3|                ; 138 (1)           ; 31 (1)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3                                                                                                  ; work         ;
 ;          |lpm_add_sub1:inst6|                      ; 15 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_add_sub1:inst6                                                                               ; work         ;
 ;             |lpm_add_sub:lpm_add_sub_component|    ; 15 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_add_sub1:inst6|lpm_add_sub:lpm_add_sub_component                                             ; work         ;
 ;                |add_sub_hrh:auto_generated|        ; 15 (15)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_add_sub1:inst6|lpm_add_sub:lpm_add_sub_component|add_sub_hrh:auto_generated                  ; work         ;
 ;          |lpm_add_sub7:inst18|                     ; 14 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_add_sub7:inst18                                                                              ; work         ;
 ;             |lpm_add_sub:lpm_add_sub_component|    ; 14 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_add_sub7:inst18|lpm_add_sub:lpm_add_sub_component                                            ; work         ;
 ;                |add_sub_gqh:auto_generated|        ; 14 (14)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_add_sub7:inst18|lpm_add_sub:lpm_add_sub_component|add_sub_gqh:auto_generated                 ; work         ;
-;          |lpm_bustri1:inst11|                      ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst11                                                                               ; work         ;
-;             |lpm_bustri:lpm_bustri_component|      ; 11 (11)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst11|lpm_bustri:lpm_bustri_component                                               ; work         ;
-;          |lpm_bustri1:inst8|                       ; 45 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst8                                                                                ; work         ;
-;             |lpm_bustri:lpm_bustri_component|      ; 45 (45)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst8|lpm_bustri:lpm_bustri_component                                                ; work         ;
-;          |lpm_bustri6:inst28|                      ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri6:inst28                                                                               ; work         ;
-;             |lpm_bustri:lpm_bustri_component|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri6:inst28|lpm_bustri:lpm_bustri_component                                               ; work         ;
-;          |lpm_clshift0:inst3|                      ; 23 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3                                                                               ; work         ;
-;             |lpm_clshift:lpm_clshift_component|    ; 23 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3|lpm_clshift:lpm_clshift_component                                             ; work         ;
-;                |lpm_clshift_ukb:auto_generated|    ; 23 (23)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3|lpm_clshift:lpm_clshift_component|lpm_clshift_ukb:auto_generated              ; work         ;
-;          |lpm_compare4:inst24|                     ; 18 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_compare4:inst24                                                                              ; work         ;
-;             |lpm_compare:lpm_compare_component|    ; 18 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_compare4:inst24|lpm_compare:lpm_compare_component                                            ; work         ;
-;                |cmpr_c1h:auto_generated|           ; 18 (18)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_compare4:inst24|lpm_compare:lpm_compare_component|cmpr_c1h:auto_generated                    ; work         ;
+;          |lpm_bustri1:inst11|                      ; 10 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst11                                                                               ; work         ;
+;             |lpm_bustri:lpm_bustri_component|      ; 10 (10)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst11|lpm_bustri:lpm_bustri_component                                               ; work         ;
+;          |lpm_bustri1:inst8|                       ; 46 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst8                                                                                ; work         ;
+;             |lpm_bustri:lpm_bustri_component|      ; 46 (46)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst8|lpm_bustri:lpm_bustri_component                                                ; work         ;
+;          |lpm_clshift0:inst3|                      ; 26 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3                                                                               ; work         ;
+;             |lpm_clshift:lpm_clshift_component|    ; 26 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3|lpm_clshift:lpm_clshift_component                                             ; work         ;
+;                |lpm_clshift_ukb:auto_generated|    ; 26 (26)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3|lpm_clshift:lpm_clshift_component|lpm_clshift_ukb:auto_generated              ; work         ;
+;          |lpm_compare4:inst24|                     ; 17 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_compare4:inst24                                                                              ; work         ;
+;             |lpm_compare:lpm_compare_component|    ; 17 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_compare4:inst24|lpm_compare:lpm_compare_component                                            ; work         ;
+;                |cmpr_c1h:auto_generated|           ; 17 (17)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_compare4:inst24|lpm_compare:lpm_compare_component|cmpr_c1h:auto_generated                    ; work         ;
 ;          |lpm_dff0:inst4|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst4                                                                                   ; work         ;
 ;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst4|lpm_ff:lpm_ff_component                                                           ; work         ;
 ;          |lpm_dff0:inst|                           ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst                                                                                    ; work         ;
 ;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst|lpm_ff:lpm_ff_component                                                            ; work         ;
-;          |lpm_mux0:inst30|                         ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst30                                                                                  ; work         ;
-;             |lpm_mux:lpm_mux_component|            ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst30|lpm_mux:lpm_mux_component                                                        ; work         ;
-;                |mux_nnc:auto_generated|            ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst30|lpm_mux:lpm_mux_component|mux_nnc:auto_generated                                 ; work         ;
+;          |lpm_mux0:inst30|                         ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst30                                                                                  ; work         ;
+;             |lpm_mux:lpm_mux_component|            ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst30|lpm_mux:lpm_mux_component                                                        ; work         ;
+;                |mux_nnc:auto_generated|            ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst30|lpm_mux:lpm_mux_component|mux_nnc:auto_generated                                 ; work         ;
 ;          |lpm_mux0:inst31|                         ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst31                                                                                  ; work         ;
 ;             |lpm_mux:lpm_mux_component|            ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst31|lpm_mux:lpm_mux_component                                                        ; work         ;
 ;                |mux_nnc:auto_generated|            ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst31|lpm_mux:lpm_mux_component|mux_nnc:auto_generated                                 ; work         ;
-;       |control_block:inst|                         ; 221 (50)          ; 69 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst                                                                                                           ; work         ;
+;       |control_block:inst|                         ; 222 (51)          ; 71 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst                                                                                                           ; work         ;
 ;          |address_resolver:inst10|                 ; 12 (0)            ; 24 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|address_resolver:inst10                                                                                   ; work         ;
 ;             |lpm_add_sub2:inst32|                  ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|address_resolver:inst10|lpm_add_sub2:inst32                                                               ; work         ;
 ;                |lpm_add_sub:lpm_add_sub_component| ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|address_resolver:inst10|lpm_add_sub2:inst32|lpm_add_sub:lpm_add_sub_component                             ; work         ;
@@ -458,32 +456,36 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                   |add_sub_dqh:auto_generated|     ; 12 (12)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|instraction_pointer:inst3|lpm_add_sub0:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_dqh:auto_generated ; work         ;
 ;             |lpm_dff1:inst|                        ; 0 (0)             ; 12 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|instraction_pointer:inst3|lpm_dff1:inst                                                                   ; work         ;
 ;                |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 12 (12)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|instraction_pointer:inst3|lpm_dff1:inst|lpm_ff:lpm_ff_component                                           ; work         ;
-;          |lpm_bustri1:inst41|                      ; 60 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst41                                                                                        ; work         ;
-;             |lpm_bustri:lpm_bustri_component|      ; 60 (60)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst41|lpm_bustri:lpm_bustri_component                                                        ; work         ;
+;          |lpm_bustri1:inst41|                      ; 46 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst41                                                                                        ; work         ;
+;             |lpm_bustri:lpm_bustri_component|      ; 46 (46)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst41|lpm_bustri:lpm_bustri_component                                                        ; work         ;
+;          |lpm_bustri1:inst43|                      ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst43                                                                                        ; work         ;
+;             |lpm_bustri:lpm_bustri_component|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst43|lpm_bustri:lpm_bustri_component                                                        ; work         ;
+;          |lpm_bustri1:inst44|                      ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst44                                                                                        ; work         ;
+;             |lpm_bustri:lpm_bustri_component|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst44|lpm_bustri:lpm_bustri_component                                                        ; work         ;
 ;          |lpm_bustri1:inst72|                      ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst72                                                                                        ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component                                                        ; work         ;
 ;          |lpm_bustri2:inst18|                      ; 32 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri2:inst18                                                                                        ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|      ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri2:inst18|lpm_bustri:lpm_bustri_component                                                        ; work         ;
 ;          |lpm_bustri5:inst17|                      ; 27 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri5:inst17                                                                                        ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|      ; 27 (27)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component                                                        ; work         ;
-;          |lpm_decode4:inst14|                      ; 10 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_decode4:inst14                                                                                        ; work         ;
-;             |lpm_decode:lpm_decode_component|      ; 10 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_decode4:inst14|lpm_decode:lpm_decode_component                                                        ; work         ;
-;                |decode_d9f:auto_generated|         ; 10 (10)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_decode4:inst14|lpm_decode:lpm_decode_component|decode_d9f:auto_generated                              ; work         ;
+;          |lpm_decode4:inst14|                      ; 9 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_decode4:inst14                                                                                        ; work         ;
+;             |lpm_decode:lpm_decode_component|      ; 9 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_decode4:inst14|lpm_decode:lpm_decode_component                                                        ; work         ;
+;                |decode_d9f:auto_generated|         ; 9 (9)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_decode4:inst14|lpm_decode:lpm_decode_component|decode_d9f:auto_generated                              ; work         ;
 ;          |lpm_dff0:inst7|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_dff0:inst7                                                                                            ; work         ;
 ;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component                                                                    ; work         ;
-;          |lpm_dff0:inst8|                          ; 0 (0)             ; 14 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_dff0:inst8                                                                                            ; work         ;
-;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 14 (14)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_dff0:inst8|lpm_ff:lpm_ff_component                                                                    ; work         ;
-;          |takt:inst|                               ; 11 (0)            ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst                                                                                                 ; work         ;
+;          |lpm_dff0:inst8|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_dff0:inst8                                                                                            ; work         ;
+;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|lpm_dff0:inst8|lpm_ff:lpm_ff_component                                                                    ; work         ;
+;          |takt:inst|                               ; 24 (2)            ; 5 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst                                                                                                 ; work         ;
 ;             |lpm_counter3:inst2|                   ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst|lpm_counter3:inst2                                                                              ; work         ;
 ;                |lpm_counter:lpm_counter_component| ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst|lpm_counter3:inst2|lpm_counter:lpm_counter_component                                            ; work         ;
 ;                   |cntr_s3i:auto_generated|        ; 4 (4)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst|lpm_counter3:inst2|lpm_counter:lpm_counter_component|cntr_s3i:auto_generated                    ; work         ;
-;             |lpm_decode3:inst1|                    ; 7 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst|lpm_decode3:inst1                                                                               ; work         ;
-;                |lpm_decode:lpm_decode_component|   ; 7 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst|lpm_decode3:inst1|lpm_decode:lpm_decode_component                                               ; work         ;
-;                   |decode_e9f:auto_generated|      ; 7 (7)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_e9f:auto_generated                     ; work         ;
+;             |lpm_decode3:inst1|                    ; 18 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst|lpm_decode3:inst1                                                                               ; work         ;
+;                |lpm_decode:lpm_decode_component|   ; 18 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst|lpm_decode3:inst1|lpm_decode:lpm_decode_component                                               ; work         ;
+;                   |decode_e9f:auto_generated|      ; 18 (18)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|control_block:inst|takt:inst|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_e9f:auto_generated                     ; work         ;
 ;       |flags:inst1|                                ; 3 (3)             ; 3 (3)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|flags:inst1                                                                                                                  ; work         ;
-;       |registers:inst2|                            ; 166 (21)          ; 210 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2                                                                                                              ; work         ;
-;          |lpm_bustri1:inst|                        ; 145 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_bustri1:inst                                                                                             ; work         ;
-;             |lpm_bustri:lpm_bustri_component|      ; 145 (145)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_bustri1:inst|lpm_bustri:lpm_bustri_component                                                             ; work         ;
+;       |registers:inst2|                            ; 165 (21)          ; 210 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2                                                                                                              ; work         ;
+;          |lpm_bustri1:inst|                        ; 144 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_bustri1:inst                                                                                             ; work         ;
+;             |lpm_bustri:lpm_bustri_component|      ; 144 (144)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_bustri1:inst|lpm_bustri:lpm_bustri_component                                                             ; work         ;
 ;          |lpm_dff0:register_0|                     ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_dff0:register_0                                                                                          ; work         ;
 ;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_dff0:register_0|lpm_ff:lpm_ff_component                                                                  ; work         ;
 ;          |lpm_dff0:register_10|                    ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_dff0:register_10                                                                                         ; work         ;
@@ -512,32 +514,35 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_dff0:register_8|lpm_ff:lpm_ff_component                                                                  ; work         ;
 ;          |lpm_dff0:register_9|                     ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_dff0:register_9                                                                                          ; work         ;
 ;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|registers:inst2|lpm_dff0:register_9|lpm_ff:lpm_ff_component                                                                  ; work         ;
-;       |stack:inst8|                                ; 78 (14)           ; 112 (4)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8                                                                                                                  ; work         ;
-;          |lpm_bustri1:inst13|                      ; 61 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_bustri1:inst13                                                                                               ; work         ;
-;             |lpm_bustri:lpm_bustri_component|      ; 61 (61)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component                                                               ; work         ;
-;          |lpm_dff0:inst10|                         ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst10                                                                                                  ; work         ;
-;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst10|lpm_ff:lpm_ff_component                                                                          ; work         ;
-;          |lpm_dff0:inst4|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst4                                                                                                   ; work         ;
-;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst4|lpm_ff:lpm_ff_component                                                                           ; work         ;
-;          |lpm_dff0:inst5|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst5                                                                                                   ; work         ;
-;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component                                                                           ; work         ;
-;          |lpm_dff0:inst6|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst6                                                                                                   ; work         ;
-;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst6|lpm_ff:lpm_ff_component                                                                           ; work         ;
-;          |lpm_dff0:inst7|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst7                                                                                                   ; work         ;
-;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst7|lpm_ff:lpm_ff_component                                                                           ; work         ;
-;          |lpm_dff0:inst8|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst8                                                                                                   ; work         ;
-;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst8|lpm_ff:lpm_ff_component                                                                           ; work         ;
-;          |lpm_dff0:inst9|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst9                                                                                                   ; work         ;
-;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff0:inst9|lpm_ff:lpm_ff_component                                                                           ; work         ;
-;          |lpm_dff2:inst|                           ; 3 (0)             ; 3 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff2:inst                                                                                                    ; work         ;
-;             |lpm_ff:lpm_ff_component|              ; 3 (3)             ; 3 (3)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component                                                                            ; work         ;
-;    |memory:inst6|                                  ; 42 (1)            ; 3 (1)        ; 61440             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6                                                                                                                          ; work         ;
+;       |stack:inst5|                                ; 75 (9)            ; 112 (4)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5                                                                                                                  ; work         ;
+;          |lpm_bustri1:inst13|                      ; 61 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_bustri1:inst13                                                                                               ; work         ;
+;             |lpm_bustri:lpm_bustri_component|      ; 61 (61)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component                                                               ; work         ;
+;          |lpm_decode1:inst11|                      ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_decode1:inst11                                                                                               ; work         ;
+;             |lpm_decode:lpm_decode_component|      ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_decode1:inst11|lpm_decode:lpm_decode_component                                                               ; work         ;
+;                |decode_u7f:auto_generated|         ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated                                     ; work         ;
+;          |lpm_dff0:inst10|                         ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst10                                                                                                  ; work         ;
+;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst10|lpm_ff:lpm_ff_component                                                                          ; work         ;
+;          |lpm_dff0:inst4|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst4                                                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst4|lpm_ff:lpm_ff_component                                                                           ; work         ;
+;          |lpm_dff0:inst5|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst5                                                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst5|lpm_ff:lpm_ff_component                                                                           ; work         ;
+;          |lpm_dff0:inst6|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst6                                                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst6|lpm_ff:lpm_ff_component                                                                           ; work         ;
+;          |lpm_dff0:inst7|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst7                                                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst7|lpm_ff:lpm_ff_component                                                                           ; work         ;
+;          |lpm_dff0:inst8|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst8                                                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst8|lpm_ff:lpm_ff_component                                                                           ; work         ;
+;          |lpm_dff0:inst9|                          ; 0 (0)             ; 15 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst9                                                                                                   ; work         ;
+;             |lpm_ff:lpm_ff_component|              ; 0 (0)             ; 15 (15)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff0:inst9|lpm_ff:lpm_ff_component                                                                           ; work         ;
+;          |lpm_dff2:inst|                           ; 3 (0)             ; 3 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff2:inst                                                                                                    ; work         ;
+;             |lpm_ff:lpm_ff_component|              ; 3 (3)             ; 3 (3)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|cpu:inst|stack:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component                                                                            ; work         ;
+;    |memory:inst6|                                  ; 42 (2)            ; 3 (1)        ; 61440             ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6                                                                                                                          ; work         ;
 ;       |lpm_bustri0:inst4|                          ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_bustri0:inst4                                                                                                        ; work         ;
 ;          |lpm_bustri:lpm_bustri_component|         ; 11 (11)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component                                                                        ;              ;
 ;       |lpm_bustri0:inst5|                          ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_bustri0:inst5                                                                                                        ;              ;
 ;          |lpm_bustri:lpm_bustri_component|         ; 11 (11)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_bustri0:inst5|lpm_bustri:lpm_bustri_component                                                                        ;              ;
-;       |lpm_bustri1:inst7|                          ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_bustri1:inst7                                                                                                        ; work         ;
-;          |lpm_bustri:lpm_bustri_component|         ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component                                                                        ; work         ;
+;       |lpm_bustri1:inst7|                          ; 15 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_bustri1:inst7                                                                                                        ; work         ;
+;          |lpm_bustri:lpm_bustri_component|         ; 15 (15)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component                                                                        ; work         ;
 ;       |lpm_compare0:inst13|                        ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_compare0:inst13                                                                                                      ; work         ;
 ;          |lpm_compare:lpm_compare_component|       ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_compare0:inst13|lpm_compare:lpm_compare_component                                                                    ; work         ;
 ;             |cmpr_qij:auto_generated|              ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |principal|memory:inst6|lpm_compare0:inst13|lpm_compare:lpm_compare_component|cmpr_qij:auto_generated                                            ; work         ;
@@ -569,12 +574,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 428   ;
+; Total registers                              ; 430   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 12    ;
 ; Number of registers using Asynchronous Clear ; 3     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 412   ;
+; Number of registers using Clock Enable       ; 413   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -584,8 +589,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                     ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 3 bits    ; 6 ALUTs       ; 6 ALUTs              ; 0 ALUTs                ; No         ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3|lpm_clshift:lpm_clshift_component|lpm_clshift_ukb:auto_generated|sbit_w[69] ;
-; 4:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; No         ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3|lpm_clshift:lpm_clshift_component|lpm_clshift_ukb:auto_generated|sbit_w[71] ;
+; 3:1                ; 3 bits    ; 6 ALUTs       ; 6 ALUTs              ; 0 ALUTs                ; No         ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3|lpm_clshift:lpm_clshift_component|lpm_clshift_ukb:auto_generated|sbit_w[70] ;
+; 4:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; No         ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3|lpm_clshift:lpm_clshift_component|lpm_clshift_ukb:auto_generated|sbit_w[72] ;
 ; 5:1                ; 2 bits    ; 6 ALUTs       ; 6 ALUTs              ; 0 ALUTs                ; No         ; |principal|cpu:inst|arithmetic_logic_unit:inst3|lpm_clshift0:inst3|lpm_clshift:lpm_clshift_component|lpm_clshift_ukb:auto_generated|sbit_w[74] ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -1863,7 +1868,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_decode1:inst11|lpm_decode:lpm_decode_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_decode1:inst11|lpm_decode:lpm_decode_component ;
 +------------------------+------------+--------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                           ;
 +------------------------+------------+--------------------------------------------------------------------------------+
@@ -1882,7 +1887,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                            ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
@@ -1910,7 +1915,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component ;
 +------------------------+------------+-------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                              ;
 +------------------------+------------+-------------------------------------------------------------------+
@@ -1929,7 +1934,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                        ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
@@ -1939,7 +1944,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                            ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
@@ -1967,7 +1972,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri4:inst15|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                        ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
@@ -1977,7 +1982,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                            ;
 +------------------------+-------------+---------------------------------------------------------------------------------+
@@ -2005,7 +2010,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                        ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
@@ -2015,7 +2020,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst4|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst4|lpm_ff:lpm_ff_component ;
 +------------------------+------------+--------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                               ;
 +------------------------+------------+--------------------------------------------------------------------+
@@ -2034,7 +2039,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst18|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                        ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
@@ -2044,7 +2049,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst5|lpm_ff:lpm_ff_component ;
 +------------------------+------------+--------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                               ;
 +------------------------+------------+--------------------------------------------------------------------+
@@ -2063,7 +2068,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst20|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                        ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
@@ -2073,7 +2078,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst6|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst6|lpm_ff:lpm_ff_component ;
 +------------------------+------------+--------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                               ;
 +------------------------+------------+--------------------------------------------------------------------+
@@ -2092,7 +2097,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst22|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                        ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
@@ -2102,7 +2107,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst7|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst7|lpm_ff:lpm_ff_component ;
 +------------------------+------------+--------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                               ;
 +------------------------+------------+--------------------------------------------------------------------+
@@ -2121,7 +2126,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst24|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                        ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
@@ -2131,7 +2136,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst8|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst8|lpm_ff:lpm_ff_component ;
 +------------------------+------------+--------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                               ;
 +------------------------+------------+--------------------------------------------------------------------+
@@ -2150,7 +2155,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst26|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                        ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
@@ -2160,7 +2165,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst9|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst9|lpm_ff:lpm_ff_component ;
 +------------------------+------------+--------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                               ;
 +------------------------+------------+--------------------------------------------------------------------+
@@ -2179,7 +2184,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +----------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_bustri1:inst28|lpm_bustri:lpm_bustri_component ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                                        ;
 +----------------+-------+---------------------------------------------------------------------------------------------+
@@ -2189,7 +2194,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: cpu:inst|stack:inst8|lpm_dff0:inst10|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: cpu:inst|stack:inst5|lpm_dff0:inst10|lpm_ff:lpm_ff_component ;
 +------------------------+------------+---------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                ;
 +------------------------+------------+---------------------------------------------------------------------+
@@ -2494,7 +2499,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Mon Mar 18 17:54:39 2024
+    Info: Processing started: Tue Apr 09 13:17:10 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off course_work -c course_work
 Info: Found 1 design units, including 1 entities, in source file block1.bdf
     Info: Found entity 1: Block1
@@ -2747,25 +2752,25 @@ Info: Instantiated megafunction "cpu:inst|control_block:inst|lpm_bustri2:inst18|
     Info: Parameter "LPM_WIDTH" = "4"
 Info: Elaborating entity "registers" for hierarchy "cpu:inst|registers:inst2"
 Info: Elaborating entity "lpm_decode3" for hierarchy "cpu:inst|registers:inst2|lpm_decode3:inst2"
-Info: Elaborating entity "stack" for hierarchy "cpu:inst|stack:inst8"
+Info: Elaborating entity "stack" for hierarchy "cpu:inst|stack:inst5"
 Warning: Using design file lpm_decode1.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: lpm_decode1
-Info: Elaborating entity "lpm_decode1" for hierarchy "cpu:inst|stack:inst8|lpm_decode1:inst11"
-Info: Elaborating entity "lpm_decode" for hierarchy "cpu:inst|stack:inst8|lpm_decode1:inst11|lpm_decode:lpm_decode_component"
-Info: Elaborated megafunction instantiation "cpu:inst|stack:inst8|lpm_decode1:inst11|lpm_decode:lpm_decode_component"
-Info: Instantiated megafunction "cpu:inst|stack:inst8|lpm_decode1:inst11|lpm_decode:lpm_decode_component" with the following parameter:
+Info: Elaborating entity "lpm_decode1" for hierarchy "cpu:inst|stack:inst5|lpm_decode1:inst11"
+Info: Elaborating entity "lpm_decode" for hierarchy "cpu:inst|stack:inst5|lpm_decode1:inst11|lpm_decode:lpm_decode_component"
+Info: Elaborated megafunction instantiation "cpu:inst|stack:inst5|lpm_decode1:inst11|lpm_decode:lpm_decode_component"
+Info: Instantiated megafunction "cpu:inst|stack:inst5|lpm_decode1:inst11|lpm_decode:lpm_decode_component" with the following parameter:
     Info: Parameter "LPM_TYPE" = "LPM_DECODE"
     Info: Parameter "LPM_WIDTH" = "3"
     Info: Parameter "LPM_DECODES" = "8"
 Info: Found 1 design units, including 1 entities, in source file db/decode_u7f.tdf
     Info: Found entity 1: decode_u7f
-Info: Elaborating entity "decode_u7f" for hierarchy "cpu:inst|stack:inst8|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated"
+Info: Elaborating entity "decode_u7f" for hierarchy "cpu:inst|stack:inst5|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated"
 Warning: Using design file lpm_add_sub5.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: lpm_add_sub5
-Info: Elaborating entity "lpm_add_sub5" for hierarchy "cpu:inst|stack:inst8|lpm_add_sub5:inst2"
-Info: Elaborating entity "lpm_add_sub" for hierarchy "cpu:inst|stack:inst8|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component"
-Info: Elaborated megafunction instantiation "cpu:inst|stack:inst8|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component"
-Info: Instantiated megafunction "cpu:inst|stack:inst8|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component" with the following parameter:
+Info: Elaborating entity "lpm_add_sub5" for hierarchy "cpu:inst|stack:inst5|lpm_add_sub5:inst2"
+Info: Elaborating entity "lpm_add_sub" for hierarchy "cpu:inst|stack:inst5|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component"
+Info: Elaborated megafunction instantiation "cpu:inst|stack:inst5|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component"
+Info: Instantiated megafunction "cpu:inst|stack:inst5|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component" with the following parameter:
     Info: Parameter "LPM_TYPE" = "LPM_ADD_SUB"
     Info: Parameter "LPM_HINT" = "ONE_INPUT_IS_CONSTANT=YES,CIN_USED=NO"
     Info: Parameter "LPM_WIDTH" = "3"
@@ -2773,30 +2778,30 @@ Info: Instantiated megafunction "cpu:inst|stack:inst8|lpm_add_sub5:inst2|lpm_add
     Info: Parameter "LPM_DIRECTION" = "SUB"
 Info: Found 1 design units, including 1 entities, in source file db/add_sub_uph.tdf
     Info: Found entity 1: add_sub_uph
-Info: Elaborating entity "add_sub_uph" for hierarchy "cpu:inst|stack:inst8|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated"
+Info: Elaborating entity "add_sub_uph" for hierarchy "cpu:inst|stack:inst5|lpm_add_sub5:inst2|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated"
 Warning: Using design file lpm_dff2.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: lpm_dff2
-Info: Elaborating entity "lpm_dff2" for hierarchy "cpu:inst|stack:inst8|lpm_dff2:inst"
-Info: Elaborating entity "lpm_ff" for hierarchy "cpu:inst|stack:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component"
-Info: Elaborated megafunction instantiation "cpu:inst|stack:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component"
-Info: Instantiated megafunction "cpu:inst|stack:inst8|lpm_dff2:inst|lpm_ff:lpm_ff_component" with the following parameter:
+Info: Elaborating entity "lpm_dff2" for hierarchy "cpu:inst|stack:inst5|lpm_dff2:inst"
+Info: Elaborating entity "lpm_ff" for hierarchy "cpu:inst|stack:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component"
+Info: Elaborated megafunction instantiation "cpu:inst|stack:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component"
+Info: Instantiated megafunction "cpu:inst|stack:inst5|lpm_dff2:inst|lpm_ff:lpm_ff_component" with the following parameter:
     Info: Parameter "LPM_TYPE" = "LPM_FF"
     Info: Parameter "LPM_WIDTH" = "3"
     Info: Parameter "LPM_FFTYPE" = "DFF"
 Warning: Using design file lpm_bustri4.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: lpm_bustri4
-Info: Elaborating entity "lpm_bustri4" for hierarchy "cpu:inst|stack:inst8|lpm_bustri4:inst14"
-Info: Elaborating entity "lpm_bustri" for hierarchy "cpu:inst|stack:inst8|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component"
-Info: Elaborated megafunction instantiation "cpu:inst|stack:inst8|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component"
-Info: Instantiated megafunction "cpu:inst|stack:inst8|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component" with the following parameter:
+Info: Elaborating entity "lpm_bustri4" for hierarchy "cpu:inst|stack:inst5|lpm_bustri4:inst14"
+Info: Elaborating entity "lpm_bustri" for hierarchy "cpu:inst|stack:inst5|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component"
+Info: Elaborated megafunction instantiation "cpu:inst|stack:inst5|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component"
+Info: Instantiated megafunction "cpu:inst|stack:inst5|lpm_bustri4:inst14|lpm_bustri:lpm_bustri_component" with the following parameter:
     Info: Parameter "LPM_TYPE" = "LPM_BUSTRI"
     Info: Parameter "LPM_WIDTH" = "3"
 Warning: Using design file lpm_add_sub3.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: lpm_add_sub3
-Info: Elaborating entity "lpm_add_sub3" for hierarchy "cpu:inst|stack:inst8|lpm_add_sub3:inst1"
-Info: Elaborating entity "lpm_add_sub" for hierarchy "cpu:inst|stack:inst8|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component"
-Info: Elaborated megafunction instantiation "cpu:inst|stack:inst8|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component"
-Info: Instantiated megafunction "cpu:inst|stack:inst8|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component" with the following parameter:
+Info: Elaborating entity "lpm_add_sub3" for hierarchy "cpu:inst|stack:inst5|lpm_add_sub3:inst1"
+Info: Elaborating entity "lpm_add_sub" for hierarchy "cpu:inst|stack:inst5|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component"
+Info: Elaborated megafunction instantiation "cpu:inst|stack:inst5|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component"
+Info: Instantiated megafunction "cpu:inst|stack:inst5|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component" with the following parameter:
     Info: Parameter "LPM_TYPE" = "LPM_ADD_SUB"
     Info: Parameter "LPM_HINT" = "ONE_INPUT_IS_CONSTANT=YES,CIN_USED=NO"
     Info: Parameter "LPM_WIDTH" = "3"
@@ -2804,13 +2809,13 @@ Info: Instantiated megafunction "cpu:inst|stack:inst8|lpm_add_sub3:inst1|lpm_add
     Info: Parameter "LPM_DIRECTION" = "ADD"
 Info: Found 1 design units, including 1 entities, in source file db/add_sub_toh.tdf
     Info: Found entity 1: add_sub_toh
-Info: Elaborating entity "add_sub_toh" for hierarchy "cpu:inst|stack:inst8|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_toh:auto_generated"
+Info: Elaborating entity "add_sub_toh" for hierarchy "cpu:inst|stack:inst5|lpm_add_sub3:inst1|lpm_add_sub:lpm_add_sub_component|add_sub_toh:auto_generated"
 Warning: Using design file lpm_add_sub4.tdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: lpm_add_sub4
-Info: Elaborating entity "lpm_add_sub4" for hierarchy "cpu:inst|stack:inst8|lpm_add_sub4:inst3"
-Info: Elaborating entity "lpm_add_sub" for hierarchy "cpu:inst|stack:inst8|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component"
-Info: Elaborated megafunction instantiation "cpu:inst|stack:inst8|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component"
-Info: Instantiated megafunction "cpu:inst|stack:inst8|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component" with the following parameter:
+Info: Elaborating entity "lpm_add_sub4" for hierarchy "cpu:inst|stack:inst5|lpm_add_sub4:inst3"
+Info: Elaborating entity "lpm_add_sub" for hierarchy "cpu:inst|stack:inst5|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component"
+Info: Elaborated megafunction instantiation "cpu:inst|stack:inst5|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component"
+Info: Instantiated megafunction "cpu:inst|stack:inst5|lpm_add_sub4:inst3|lpm_add_sub:lpm_add_sub_component" with the following parameter:
     Info: Parameter "LPM_TYPE" = "LPM_ADD_SUB"
     Info: Parameter "LPM_HINT" = "ONE_INPUT_IS_CONSTANT=YES,CIN_USED=NO"
     Info: Parameter "LPM_WIDTH" = "3"
@@ -2908,9 +2913,9 @@ Info: Found 1 design units, including 1 entities, in source file db/altsyncram_d
     Info: Found entity 1: altsyncram_d2c1
 Info: Elaborating entity "altsyncram_d2c1" for hierarchy "memory:inst6|lpm_ram_dq0:inst1|altsyncram:altsyncram_component|altsyncram_d2c1:auto_generated"
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
-    Warning: Converted tri-state node "cpu:inst|stack:inst8|new_stack_pointer[2]" into a selector
-    Warning: Converted tri-state node "cpu:inst|stack:inst8|new_stack_pointer[1]" into a selector
-    Warning: Converted tri-state node "cpu:inst|stack:inst8|new_stack_pointer[0]" into a selector
+    Warning: Converted tri-state node "cpu:inst|stack:inst5|new_stack_pointer[2]" into a selector
+    Warning: Converted tri-state node "cpu:inst|stack:inst5|new_stack_pointer[1]" into a selector
+    Warning: Converted tri-state node "cpu:inst|stack:inst5|new_stack_pointer[0]" into a selector
     Warning: Converted tri-state node "cpu:inst|control_block:inst|instraction_pointer:inst3|gdfx_temp0[11]" into a selector
     Warning: Converted tri-state node "cpu:inst|control_block:inst|instraction_pointer:inst3|gdfx_temp0[10]" into a selector
     Warning: Converted tri-state node "cpu:inst|control_block:inst|instraction_pointer:inst3|gdfx_temp0[9]" into a selector
@@ -2923,6 +2928,7 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted tri-state node "cpu:inst|control_block:inst|instraction_pointer:inst3|gdfx_temp0[2]" into a selector
     Warning: Converted tri-state node "cpu:inst|control_block:inst|instraction_pointer:inst3|gdfx_temp0[1]" into a selector
     Warning: Converted tri-state node "cpu:inst|control_block:inst|instraction_pointer:inst3|gdfx_temp0[0]" into a selector
+    Warning: Converted tri-state node feeding "cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst31|lpm_mux:lpm_mux_component|mux_nnc:auto_generated|l1_w0_n0_mux_dataout" into a selector
     Warning: Converted tri-state node feeding "cpu:inst|arithmetic_logic_unit:inst3|lpm_mux0:inst30|lpm_mux:lpm_mux_component|mux_nnc:auto_generated|l1_w0_n0_mux_dataout" into a selector
 Warning: Clock multiplexers are found and protected
     Warning: Found clock multiplexer cpu:inst|control_block:inst|inst102~synth
@@ -2953,7 +2959,6 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "memory:inst6|lpm_bustri0:inst5|lpm_bustri:lpm_bustri_component|dout[8]" to the node "memory:inst6|lpm_ram_dq0:inst1|altsyncram:altsyncram_component|altsyncram_d2c1:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "memory:inst6|lpm_bustri0:inst5|lpm_bustri:lpm_bustri_component|dout[9]" to the node "memory:inst6|lpm_ram_dq0:inst1|altsyncram:altsyncram_component|altsyncram_d2c1:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "memory:inst6|lpm_bustri0:inst5|lpm_bustri:lpm_bustri_component|dout[10]" to the node "memory:inst6|lpm_ram_dq0:inst1|altsyncram:altsyncram_component|altsyncram_d2c1:auto_generated|q_a[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri6:inst28|lpm_bustri:lpm_bustri_component|dout[0]" to the node "cpu:inst|flags:inst1|inst7" into an OR gate
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst8|lpm_bustri:lpm_bustri_component|dout[14]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_compare3:inst2|lpm_compare:lpm_compare_component|cmpr_8pi:auto_generated|aneb_result_wire[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst8|lpm_bustri:lpm_bustri_component|dout[13]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_compare3:inst2|lpm_compare:lpm_compare_component|cmpr_8pi:auto_generated|aneb_result_wire[0]" into an OR gate
@@ -2970,18 +2975,6 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst8|lpm_bustri:lpm_bustri_component|dout[2]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_compare3:inst2|lpm_compare:lpm_compare_component|cmpr_8pi:auto_generated|aneb_result_wire[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst8|lpm_bustri:lpm_bustri_component|dout[1]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_compare3:inst2|lpm_compare:lpm_compare_component|cmpr_8pi:auto_generated|aneb_result_wire[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|arithmetic_logic_unit:inst3|lpm_bustri1:inst8|lpm_bustri:lpm_bustri_component|dout[0]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_compare3:inst2|lpm_compare:lpm_compare_component|cmpr_8pi:auto_generated|aneb_result_wire[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[11]" to the node "memory:inst6|inst10" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[10]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[10]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[9]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[9]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[8]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[8]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[7]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[7]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[6]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[6]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[5]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[5]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[4]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[3]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[2]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[1]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[0]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri1:inst41|lpm_bustri:lpm_bustri_component|dout[14]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[14]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri1:inst41|lpm_bustri:lpm_bustri_component|dout[13]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[13]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri1:inst41|lpm_bustri:lpm_bustri_component|dout[12]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[12]" into an OR gate
@@ -2997,6 +2990,18 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri1:inst41|lpm_bustri:lpm_bustri_component|dout[2]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri1:inst41|lpm_bustri:lpm_bustri_component|dout[1]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri1:inst41|lpm_bustri:lpm_bustri_component|dout[0]" to the node "cpu:inst|arithmetic_logic_unit:inst3|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[11]" to the node "memory:inst6|inst10" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[10]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[10]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[9]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[9]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[8]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[8]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[7]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[7]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[6]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[6]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[5]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[5]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[4]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[4]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[3]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[2]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[1]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri5:inst17|lpm_bustri:lpm_bustri_component|dout[0]" to the node "memory:inst6|lpm_bustri0:inst4|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "memory:inst6|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component|dout[14]" to the node "cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[14]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "memory:inst6|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component|dout[13]" to the node "cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[13]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "memory:inst6|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component|dout[12]" to the node "cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[12]" into an OR gate
@@ -3012,10 +3017,10 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "memory:inst6|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component|dout[2]" to the node "cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "memory:inst6|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component|dout[1]" to the node "cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "memory:inst6|lpm_bustri1:inst7|lpm_bustri:lpm_bustri_component|dout[0]" to the node "cpu:inst|control_block:inst|lpm_dff0:inst7|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri2:inst18|lpm_bustri:lpm_bustri_component|dout[3]" to the node "cpu:inst|registers:inst2|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_e9f:auto_generated|w_anode31w[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri2:inst18|lpm_bustri:lpm_bustri_component|dout[3]" to the node "cpu:inst|registers:inst2|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_e9f:auto_generated|w_anode71w[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri2:inst18|lpm_bustri:lpm_bustri_component|dout[2]" to the node "cpu:inst|registers:inst2|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_e9f:auto_generated|w_anode132w[3]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri2:inst18|lpm_bustri:lpm_bustri_component|dout[1]" to the node "cpu:inst|registers:inst2|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_e9f:auto_generated|w_anode31w[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri2:inst18|lpm_bustri:lpm_bustri_component|dout[0]" to the node "cpu:inst|registers:inst2|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_e9f:auto_generated|w_anode31w[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|control_block:inst|lpm_bustri2:inst18|lpm_bustri:lpm_bustri_component|dout[0]" to the node "cpu:inst|registers:inst2|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_e9f:auto_generated|w_anode71w[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|registers:inst2|lpm_bustri1:inst|lpm_bustri:lpm_bustri_component|dout[14]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst43|lpm_bustri:lpm_bustri_component|dout[14]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|registers:inst2|lpm_bustri1:inst|lpm_bustri:lpm_bustri_component|dout[13]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst43|lpm_bustri:lpm_bustri_component|dout[13]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|registers:inst2|lpm_bustri1:inst|lpm_bustri:lpm_bustri_component|dout[12]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst43|lpm_bustri:lpm_bustri_component|dout[12]" into an OR gate
@@ -3031,29 +3036,29 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|registers:inst2|lpm_bustri1:inst|lpm_bustri:lpm_bustri_component|dout[2]" to the node "cpu:inst|control_block:inst|address_resolver:inst10|lpm_dff1:inst28|lpm_ff:lpm_ff_component|dffs[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|registers:inst2|lpm_bustri1:inst|lpm_bustri:lpm_bustri_component|dout[1]" to the node "cpu:inst|control_block:inst|address_resolver:inst10|lpm_dff1:inst28|lpm_ff:lpm_ff_component|dffs[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "cpu:inst|registers:inst2|lpm_bustri1:inst|lpm_bustri:lpm_bustri_component|dout[0]" to the node "cpu:inst|control_block:inst|address_resolver:inst10|lpm_dff1:inst28|lpm_ff:lpm_ff_component|dffs[0]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[14]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[14]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[13]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[13]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[12]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[12]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[11]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[11]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[10]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[10]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[9]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[9]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[8]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[8]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[7]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[7]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[6]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[6]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[5]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[5]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[4]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[4]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[3]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[3]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[2]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[2]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[1]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[1]" into an OR gate
-    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst8|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[0]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
-Info: Implemented 1224 device resources after synthesis - the final resource count might be different
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[14]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[14]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[13]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[13]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[12]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[12]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[11]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[11]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[10]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[10]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[9]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[9]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[8]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[8]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[7]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[7]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[6]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[6]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[5]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[5]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[4]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[4]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[3]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[3]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[2]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[2]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[1]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[1]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "cpu:inst|stack:inst5|lpm_bustri1:inst13|lpm_bustri:lpm_bustri_component|dout[0]" to the node "cpu:inst|control_block:inst|lpm_bustri1:inst72|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
+Info: Implemented 1239 device resources after synthesis - the final resource count might be different
     Info: Implemented 1 input pins
-    Info: Implemented 143 output pins
-    Info: Implemented 1050 logic cells
+    Info: Implemented 156 output pins
+    Info: Implemented 1052 logic cells
     Info: Implemented 30 RAM segments
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 176 warnings
     Info: Peak virtual memory: 246 megabytes
-    Info: Processing ended: Mon Mar 18 17:54:48 2024
+    Info: Processing ended: Tue Apr 09 13:17:19 2024
     Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:11
 
